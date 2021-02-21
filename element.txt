@@ -4,6 +4,7 @@
 : #cd056d
 
 #배경
+: wrap - #fcf7ef
 : #dcd3c9
 #f8f8f8
 

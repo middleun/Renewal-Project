@@ -9,3 +9,6 @@ display:flex; justify-content: center; align-items: center;}
 #header .topMenuBar a{width:50px; height:50px; padding:30px; display:flex; justify-content: center;
 align-items: center; }
 #header .topMenuBar a i{display:block;font-size:30px; font-weight:200; color:#514d4d;}
+
+#container{width:100%; height:auto;}
+#container .sliderWrap{width:100%; height:521px; background:#dcd3c9}
