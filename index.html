@@ -23,8 +23,9 @@
     <script src="./js/custom.js"></script>
 
     <!-- Slick Slider CSS CDN link -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
-    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+      
     <!-- Slick Slder js CDN link -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
@@ -37,6 +38,7 @@
     <div class="wrap">
         <div id="header" class="clear">
             <div class="topLogo">
+                <div class="logoImg"></div>
                 
             </div>
             <div class="topMenuBar">
@@ -44,15 +46,56 @@
             </div>
     
         </div>
-        <div id="Container">
-            <div class="sliderWrap">
-                <div class="mainSlider"></div>
+        <div id="container">
+            <div class="mainSlider" style="height: 880px;;">
+                <!-- <h1>Happy</h1> -->
+                <!-- <h1>Baby</h1> -->
+                <div class="sliderWrap"  style="width: 530px; height:100%; 
+                    position:relative; left:0px; top:0px; z-index:99;">
+                    <div class="slider item_1">
+                        <!-- <span class="sliderBg"></span> -->
+                    </div>
+                    <div class="slider item_2">
+                        <!-- <span class="sliderBg"></span> -->
+                    </div>
+                    <div class="slider item_3">
+                        <!-- <span class="sliderBg"></span> -->
+                    </div>
+                    <div class="slider item_4">
+                        <!-- <span class="sliderBg"></span> -->
+                    </div>
+
+                </div>
+                <!-- end of SliderWrap -->
+
+                <div class="sliderTxt">
+                    <span>Happy</span>
+                    <span>Baby</span>
+
+                </div>
             </div>
+            <!-- end of Main Slider Section -->
         
         </div>
+        <!-- end of contents Container -->
        
 
     </div>
+
+    <script>
+        $('.sliderWrap').slick({
+            slide:'div',
+            infinite:true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows:false,
+            dots:true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            dotsClass:"slickDots",
+            centermode:true
+        });
+    </script>
 
 
    
