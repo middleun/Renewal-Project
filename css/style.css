@@ -38,6 +38,7 @@ display:flex; justify-content: flex-start; bottom:25%;}
 #container .mainSlider .sliderWrap .sliderDots li{width:25%;border-bottom:2px solid #dcd3c9; }
 #container .mainSlider .sliderWrap .sliderDots li button{display:block;outline:none; border-style: none; padding-bottom:20px; background:none;
     font-family: 'Poppins'; cursor: pointer; }
+#container .mainSlider .sliderWrap .sliderDots li button.active{color:#cd056d;}
 
 
 
