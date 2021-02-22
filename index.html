@@ -13,21 +13,24 @@
     <!-- style css link -->
     <link rel="stylesheet" href="./css/style.css">
 
-    <!-- fontawesome CDN link -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
-    
-    <!-- jQuery CDN link -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- media css link -->
+    <link rel="stylesheet" href="./css/media.css">
 
-    <!-- main js link -->
-    <script src="./js/custom.js"></script>
+    <!-- animation css link -->
+    <link rel="stylesheet" href="./css/animation.css">
 
     <!-- Slick Slider CSS CDN link -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
+    <!-- fontawesome CDN link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    
+    
+
+    
+
       
-    <!-- Slick Slder js CDN link -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   
 
     
 
@@ -38,7 +41,7 @@
     <div class="wrap">
         <div id="header" class="clear">
             <div class="topLogo">
-                <div class="logoImg"></div>
+                <img src="img/logo.png">
                 
             </div>
             <div class="topMenuBar">
@@ -52,16 +55,16 @@
                 <!-- <h1>Baby</h1> -->
                 <div class="sliderWrap"  style="width: 530px; height:100%; 
                     position:relative; left:0px; top:0px; z-index:99;">
-                    <div class="slider item_1">
+                    <div class="slider item1">
                         <!-- <span class="sliderBg"></span> -->
                     </div>
-                    <div class="slider item_2">
+                    <div class="slider item2">
                         <!-- <span class="sliderBg"></span> -->
                     </div>
-                    <div class="slider item_3">
+                    <div class="slider item3">
                         <!-- <span class="sliderBg"></span> -->
                     </div>
-                    <div class="slider item_4">
+                    <div class="slider item4">
                         <!-- <span class="sliderBg"></span> -->
                     </div>
 
@@ -69,6 +72,9 @@
                 <!-- end of SliderWrap -->
 
                 <div class="sliderTxt">
+                    <div class="sliderEmblem">
+                        <img src="./img/main_emblem.png" alt="">
+                    </div>
                     <span>Happy</span>
                     <span>Baby</span>
 
@@ -81,6 +87,14 @@
        
 
     </div>
+    <!-- jQuery CDN link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+     <!-- Slick Slder js CDN link -->
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- main js link -->
+    <script src="./js/custom.js"></script>
 
     <script>
         $('.sliderWrap').slick({
@@ -92,7 +106,7 @@
             dots:true,
             autoplay: true,
             autoplaySpeed: 2000,
-            dotsClass:"slickDots",
+            dotsClass:"sliderDots",
             centermode:true
         });
     </script>
