@@ -3,6 +3,11 @@
     #container .mainSlider .sliderTxt span{font-size:170px;}
 }
 
+@media screen and (max-width:1400px){
+    #serviceSec .serviceCon .conBox .item .txtBox{max-width: 80%;}
+    #serviceSec .serviceCon .conBox .item .txtBox span{font-size:14px;}
+}    
+
 @media screen and (max-width:1024px){
     #container .mainSlider .sliderTxt span{font-size:150px;}
 }
