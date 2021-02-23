@@ -29,7 +29,7 @@ align-items: center; cursor: pointer;}
 /***********************
  Slider Section style 
  *************************/
-#sliderSec{width:100%; height:880px; _background:#dcd3c9; position:relative;}
+#sliderSec{width:100%; height:880px; _background:#dcd3c9; position:relative; background:#fcf7ef;}
 
 /* Slider Section sliderWrap style */
 #sliderSec .sliderWrap{position:relative;width:100%; height:100%;margin: 0px auto; _background:#ddd;}
@@ -64,8 +64,42 @@ transition:padding 1.2s cubic-bezier(0.65, 0.05, 0.36, 1);}
 /***********************
  Slider Section style 
  **************************/
- #serviceSec{width:100%; height:500px; position:relative;}
+ #serviceSec{width:100%; height:500px; position:relative; background: linear-gradient(to bottom, rgba(252,247,239,1) 0%,rgba(255,255,255,0) 100%);; }
  #serviceSec .center{width:100%; height:auto; max-width:1400px; margin:auto; }
- #serviceSec .serviceTit{width:100%; text-align: center;}
- #serviceSec .serviceTit h1{font-family: 'Source Sans Pro'; font-weight:600; font-size:100px;}
+
+ /* serviceTit style */
+ #serviceSec .serviceTit{width:100%; height:auto;display:flex; justify-content: center; align-items: center; flex-direction:column; }
+ #serviceSec .serviceTit .seviceEmblem{width:100%; height:auto;display:flex; justify-content: center;}
+ #serviceSec .serviceTit .seviceEmblem img{width:100%; }
+ #serviceSec .serviceTit h1{font-family: 'Source Sans Pro'; font-weight:600; font-size:50px; padding:20px; display:block;}
+
+ #serviceSec .serviceTit .line{width:50px; display:block; height:4px; background:#514d4d;}
+
+
+ /* serviceCon style */
+#serviceSec .serviceCon{width:100%; height:auto; }
+#serviceSec .serviceCon .conBox{width:100%; height: auto;display:grid;grid-template-columns: repeat(3, 1fr); gap:0.4%;
+_align-items:stretch; align-content: center; justify-content: center;}
+
+#serviceSec .serviceCon .conBox .item{padding:20px; display:flex; flex-direction: column; align-items: center; _position:relative;}
+#serviceSec .serviceCon .conBox .item .imgBox{width: 100%; height:250px; background:url(../img/main_service_1.png) no-repeat center center;
+background-size: cover; border-radius: 5%; position:relative;}
+#serviceSec .serviceCon .conBox .item:nth-child(2) .imgBox{background-image:url(../img/main_service_2.png);}
+#serviceSec .serviceCon .conBox .item:nth-child(3) .imgBox{background-image:url(../img/main_service_3.png);}
+
+
+#serviceSec .serviceCon .conBox .item .imgBox .iconBox{width:100%; height:100px; position:absolute; background:url(../img/main_service_bg.png)
+no-repeat 50% 0; top:80%; display:flex; justify-content: center; align-items: center;}
+#serviceSec .serviceCon .conBox .item .imgBox .iconBox img{max-width:100%;}
+
+
+#serviceSec .serviceCon .conBox .item .txtBox{margin-top:50px; width:100%; text-align: center;max-width: 70%;}
+#serviceSec .serviceCon .conBox .item .txtBox h3{display: block;margin-bottom:10px; font-family: 'Noto Sans KR';}
+#serviceSec .serviceCon .conBox .item .txtBox span{display: block; margin-bottom: 20px; font-weight: 400; font-family: 'Noto Sans KR'}
+#serviceSec .serviceCon .conBox .item .txtBox button{width:60%; height:50px; font-family: 'Source Sans Pro';
+_text-transform: uppercase; font-size:18px; font-weight: 600; background: #fff; border-radius: 3px; cursor:pointer;
+border:1px solid #514d4d; transition: all 0.4s;;}
+#serviceSec .serviceCon .conBox .item .txtBox button:hover{color:#fff; background: #cd056d; border:1px solid #cd056d;}
+
+
 
