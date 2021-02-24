@@ -1,5 +1,5 @@
 @media screen and (max-width:1600px){
-    #header .center{max-width: 1200px;}
+    /* #header .center{max-width: 1200px;} */
     
     /* Slider Section Style */
     #sliderSec .sliderTxt span{font-size:170px;}
@@ -12,9 +12,16 @@
     #serviceSec .serviceCon .conBox .item .txtBox{max-width: 80%;}
     /* #serviceSec .serviceCon .conBox .item .txtBox span{font-size:14px;} */
     #serviceSec .serviceCon .conBox .item .txtBox span:nth-child(1){padding-right: 100px;}
-}    
+
+
+}   
+@media screen and (max-width:1400px){
+    #header .center{max-width:1024px;}
+}
 
 @media screen and (max-width:1024px){
+    #header .center{max-width:800px;}
+
     /* SliderSection Style */
     #sliderSec .sliderTxt span{font-size:150px;}
     #sliderSec .sliderTxt{transform: scaleX(1); transition:all 0.4s ease-in-out; transition:all 0.4s ease-in-out;}
