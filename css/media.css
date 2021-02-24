@@ -1,36 +1,56 @@
 @media screen and (max-width:1600px){
     #header .center{max-width: 1200px;}
+    
+    /* Slider Section Style */
     #sliderSec .sliderTxt span{font-size:170px;}
 }
 
 @media screen and (max-width:1400px){
     #sliderSec .sliderWrap .slider{transform:scaleX(1);}
+
+    /* ServiceSection Style */
     #serviceSec .serviceCon .conBox .item .txtBox{max-width: 80%;}
-    #serviceSec .serviceCon .conBox .item .txtBox span{font-size:14px;}
+    /* #serviceSec .serviceCon .conBox .item .txtBox span{font-size:14px;} */
     #serviceSec .serviceCon .conBox .item .txtBox span:nth-child(1){padding-right: 100px;}
 }    
 
 @media screen and (max-width:1024px){
+    /* SliderSection Style */
     #sliderSec .sliderTxt span{font-size:150px;}
     #sliderSec .sliderTxt{transform: scaleX(1); transition:all 0.4s ease-in-out; transition:all 0.4s ease-in-out;}
+
+    /* serviceSection Style */
+    
+    #serviceSec .serviceCon .conBox{grid-template-columns: repeat(1, 1fr); grid-template-rows: repeat(3,minmax(0, auto));}
+    #serviceSec .serviceCon .conBox .item{flex-direction: row; align-items: space-between; _position:relative;}
+    #serviceSec .serviceCon .conBox .item .imgBox .iconBox{display:none;}
+    /* #serviceSec .serviceCon .conBox .item .imgBox{float:left;} */
+    #serviceSec .serviceCon .conBox .item .txtBox{text-align: left; padding-left:20px;}
+
 }
 
 
 @media screen and (max-width:800px){
     #header{padding:0 30px;}
     
-    #sliderSec .sliderTxt{transform: scaleX(0.8); transition:all 0.4s ease-in-out;}
     
+    
+    #sliderSec .sliderTxt{transform: scaleX(0.9); transition:all 0.4s ease-in-out;}
     #sliderSec .sliderTxt{font-size: 100px;justify-content: space-around; transition:all 0.4s ease-in-out}
     #serviceSec .serviceCon .conBox .item .txtBox span:nth-child(1){padding-right: 80px;}
-
-
 
 }
 
 @media screen and (max-width:750px){
-    #gridSec .gridBox{width:100%; height:auto; display:grid; grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(8,minmax(200px, auto)); }
+
+    /* Service Section Style */
+    #serviceSec .serviceCon .conBox .item .imgBox{display:none;}
+    #serviceSec .serviceCon .conBox .item .txtBox{max-width: 100%;}
+
+    
+    
+    /* GridSection Style */
+    #gridSec .gridBox{grid-template-columns: repeat(1, 1fr); grid-template-rows: repeat(8,minmax(200px, auto)); }
     #gridSec .gridBox .item:nth-child(1){grid-row:1/2; grid-column: 1/1; height:500px;}
     #gridSec .gridBox .item:nth-child(2){grid-row:2/3;height:300px;}
     #gridSec .gridBox .item:nth-child(3){grid-row:3/4;height:200px;}

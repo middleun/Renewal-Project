@@ -256,21 +256,29 @@
             centermode:true
         });
         
-        // Resize시 전체 크기 조절 
-        // function resizeContents(){ 
-        //     var minWidth = 1200; 
-        //     var sliderSec = document.getElementById('#sliderSec');
-        //         if (window.innerWidth < minWidth) { 
-        //             sliderSec.style.zoom = (window.innerWidth / minWidth); 
-        //         } else {sliderSec.style.zoom = 1; 
-        //         } 
-        //     }
-        // window.onload = function() { 
-        //     window.addEventListener('resize', function() {
-        //          resizeApply(); 
-        //         }); 
-        // } 
-        // resizeApply();
+        // Resize시 전체 크기 축소 
+        
+        function resizeContents(){ 
+            // const sliderSec = document.getElementById('#sliderSec');
+            let scale =1;
+
+                // if(window.innerWidth < 1024){
+                //     document.body.style.zoom = scale/1.05;
+                // } else 
+                
+                if(window.innerWidth < 750) { 
+                    document.body.style.zoom = scale/1.5; 
+                } else {
+                    document.body.style.zoom = scale; 
+                } 
+            
+            window.onload = function() { 
+                window.addEventListener('resize', function() {
+                 resizeContents(); 
+                });
+            }     
+        } 
+        resizeContents();
        
     
 
