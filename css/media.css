@@ -4,19 +4,27 @@
 }
 
 @media screen and (max-width:1400px){
+    #sliderSec .sliderWrap .slider{transform:scaleX(1);}
     #serviceSec .serviceCon .conBox .item .txtBox{max-width: 80%;}
     #serviceSec .serviceCon .conBox .item .txtBox span{font-size:14px;}
+    #serviceSec .serviceCon .conBox .item .txtBox span:nth-child(1){padding-right: 100px;}
 }    
 
 @media screen and (max-width:1024px){
     #sliderSec .sliderTxt span{font-size:150px;}
-    #sliderSec .sliderTxt{transform: scaleX(1); transition:all 0.4s ease-in-out;}
+    #sliderSec .sliderTxt{transform: scaleX(1); transition:all 0.4s ease-in-out; transition:all 0.4s ease-in-out;}
 }
 
 
 @media screen and (max-width:800px){
     #header{padding:0 30px;}
-    #sliderSec .sliderTxt{font-size: 100px;justify-content:space-between;transform: scaleX(0.8); transition:all 0.4s ease-in-out}
+    
+    #sliderSec .sliderTxt{transform: scaleX(0.8); transition:all 0.4s ease-in-out;}
+    
+    #sliderSec .sliderTxt{font-size: 100px;justify-content: space-around; transition:all 0.4s ease-in-out}
+    #serviceSec .serviceCon .conBox .item .txtBox span:nth-child(1){padding-right: 80px;}
+
+
 
 
 

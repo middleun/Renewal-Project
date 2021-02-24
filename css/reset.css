@@ -9,3 +9,9 @@ font-weight: 300; }
 ol,ul{list-style: none;}
 a{text-decoration:none; color:#000;}
 img{display:block;}
+
+
+body::-webkit-scrollbar{width: 15px;}
+body::-webkit-scrollbar-thumb{background:#514d4d; border-radius:10px; background-clip: padding-box;
+    border: 2px solid transparent;}
+body::-webkit-scrollbar-track{width: #f8f8f8;}
