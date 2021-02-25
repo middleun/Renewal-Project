@@ -50,23 +50,28 @@
             
         </div>
         <div class="container">
-            <section id="sliderSec" style="width:100%;height: 880px; position:relative;">      
+            <section id="sliderSec" >      
+                <!-- 플러그인을 쓰려면 레이아웃 구조가 맞아야! div>ul>li>img 이런식으로!!!! -->
 
-                    <div class="sliderWrap"  style="width: 530px; height:100%; 
-                        position:relative; left:0px; top:0px; z-index:99;">
-                        <div class="slider item1" style="width: 530px;">
-                            
-                        </div>
-                        <div class="slider item2" style="width: 530px;">
-                            
-                        </div>
-                        <div class="slider item3" style="width: 530px;">
-                            
-                        </div>
-                        <div class="slider item4" style="width: 530px;">
-                            
-                        </div>
+                    <div class="sliderWrap" >
+                        <ul class="sliderImg" >                      
 
+                            <li class="slider item1" >
+                                <img src="./img/main_slide_1.png" alt="">                            
+                            </li>
+
+                            <li class="slider item2" >
+                                <img src="./img/main_slide_2.png" alt="">                            
+                            </li>
+
+                            <li class="slider item3" >
+                                <img src="./img/main_slide_3.png" alt="">                            
+                            </li>
+
+                            <li class="slider item4" >
+                                <img src="./img/main_slide_4.png" alt="">                            
+                            </li>
+                        </ul>        
                     </div>
                     <!-- end of SliderWrap -->
 
@@ -322,23 +327,10 @@
     <script src="./js/custom.js"></script>
 
     <script type= "text/javascript">
-        // Light Slider 
-        // $(function(){
-        // // lightslider옵션 참조 : https://sseung-fire.tistory.com/18
-        // // lightslider documentation : http://sachinchoolur.github.io/lightslider/examples.html
-        //     $(".sldierWrap").lightSlider({
-        //         loop:true,
-        //         keyPress:true,
-        //         item:1,
-        //         auto:true,
-        //         speed:500,
-        //         controls:false
-        //     });
-
-        // });
-
+       
+        // Light Slider
         $(document).ready(function() {
-            $('.sliderWrap').lightSlider({
+            $('.sliderImg').lightSlider({
                 loop:true,
                 keyPress:true,
                 item:1,
@@ -346,11 +338,9 @@
                 speed:500,
                 controls:false,
                 slideMargin:0
-
                 
             });
         });
-
 
 
         // Resize시 전체 크기 축소 
