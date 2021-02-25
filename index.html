@@ -19,15 +19,16 @@
     <!-- animation css link -->
     <link rel="stylesheet" href="./css/animation.css">
 
+    <!-- Light Slider CSS CDN link -->
+    <link type="text/css" rel="stylesheet" href="./plugin/lightslider.css" />           
+
     <!-- Slick Slider CSS CDN link -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
 
     <!-- fontawesome CDN link -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
        
 
-      
-   
 
     
 
@@ -53,17 +54,17 @@
 
                     <div class="sliderWrap"  style="width: 530px; height:100%; 
                         position:relative; left:0px; top:0px; z-index:99;">
-                        <div class="slider item1">
-                            <!-- <span class="sliderBg"></span> -->
+                        <div class="slider item1" style="width: 530px;">
+                            
                         </div>
-                        <div class="slider item2">
-                            <!-- <span class="sliderBg"></span> -->
+                        <div class="slider item2" style="width: 530px;">
+                            
                         </div>
-                        <div class="slider item3">
-                            <!-- <span class="sliderBg"></span> -->
+                        <div class="slider item3" style="width: 530px;">
+                            
                         </div>
-                        <div class="slider item4">
-                            <!-- <span class="sliderBg"></span> -->
+                        <div class="slider item4" style="width: 530px;">
+                            
                         </div>
 
                     </div>
@@ -277,6 +278,32 @@
         
         </div>
         <!-- end of Contents Container -->
+        <footer id="footer">
+            <div class="center">
+                <div class="btmNav clear">
+                    <div class="btmLogo">
+                        <a href="#"><img src="img/f_logo.png"></a>
+                        
+                    </div>
+                    <div class="btmQuick">
+                        <ul>
+                            <li>
+                                <span><a href="#">개인정보취급방침      <i class="fas fa-chevron-right"></i></a></span>
+                            </li>
+                            <li>
+                                <span><a href="#">개인정보취급방침      <i class="fas fa-chevron-right"></i></a></span>
+
+                            </li>
+                        </ul>
+                        
+                    </div>        
+
+                </div>
+                <div class="ftrInfo">
+
+                </div>
+            </div>
+        </footer>
        
 
     </div>
@@ -285,26 +312,47 @@
     <!-- jQuery CDN link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <!-- Light Slider js CDN link -->
+    <script src="./plugin/lightslider.js"></script>
+
      <!-- Slick Slder js CDN link -->
-     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
 
     <!-- main js link -->
     <script src="./js/custom.js"></script>
 
-    <script>
-        $('.sliderWrap').slick({
-            slide:'div',
-            infinite:true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows:false,
-            dots:true,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            dotsClass:"sliderDots",
-            centermode:true
+    <script type= "text/javascript">
+        // Light Slider 
+        // $(function(){
+        // // lightslider옵션 참조 : https://sseung-fire.tistory.com/18
+        // // lightslider documentation : http://sachinchoolur.github.io/lightslider/examples.html
+        //     $(".sldierWrap").lightSlider({
+        //         loop:true,
+        //         keyPress:true,
+        //         item:1,
+        //         auto:true,
+        //         speed:500,
+        //         controls:false
+        //     });
+
+        // });
+
+        $(document).ready(function() {
+            $('.sliderWrap').lightSlider({
+                loop:true,
+                keyPress:true,
+                item:1,
+                auto:true,
+                speed:500,
+                controls:false,
+                slideMargin:0
+
+                
+            });
         });
-        
+
+
+
         // Resize시 전체 크기 축소 
         
         function resizeContents(){ 

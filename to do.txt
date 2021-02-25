@@ -1,0 +1,10 @@
+1. Contact Section / 반응형✔ 
+2. footer
+3. 반응형 resize 크기 조절 - body 전체말고 일부 섹션만 축소 되도록
+4. 슬라이더 바꾸기 - Light Slider 
+  4-1. indicator index작업
+5. 스크롤시 애니메이션 설정
+6. 반응형 폰트 사이즈 조절✔ 
+7. 버튼 호버 효과 ✔
+8. hide 내비게이션
+9. 가로 스크롤 없애기 
