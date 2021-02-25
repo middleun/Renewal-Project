@@ -1,11 +1,12 @@
-@media screen and (max-width:1600px){
-    /* #header .center{max-width: 1200px;} */
-    
+@media screen and (max-width:1700px){
+       
     /* Slider Section Style */
     #sliderSec .sliderTxt span{font-size:170px;}
 }
 
 @media screen and (max-width:1400px){
+
+    /* Slider Section Style */
     #sliderSec .sliderWrap .slider{transform:scaleX(1);}
 
     /* ServiceSection Style */
@@ -15,19 +16,42 @@
 
 
 }   
-@media screen and (max-width:1400px){
-    #header .center{max-width:1024px;}
-}
+
+@media screen and (max-width:1280px){
+    #header .center{max-width:1100px;}
+    
+    /* Common Button style */
+    button{width:120px; height:40px; font-size:16px; }
+
+    /* Service Section Style */
+    #serviceSec .serviceCon .conBox .item .txtBox span{font-size:14px;}
+
+    /* GridSection Style */
+    #gridSec .gridBox .item:nth-child(1){height:800px;}
+    #gridSec .gridBox .item:nth-child(2){height:500px;}
+    #gridSec .gridBox .item:nth-child(3){height:300px;}
+    #gridSec .gridBox .item:nth-child(4){height:800px;}
+    /* #gridSec .gridBox .item:nth-child(5){grid-row:5/6;height:200px;} */
+    #gridSec .gridBox .item:nth-child(6){height:400px;}
+    #gridSec .gridBox .item:nth-child(7){height:400px;}
+
+    #gridSec .gridBox .item .txtBox h3{font-size:30px;}
+
+    #gridSec .gridBox .item2 .txtBox button{font-size:14px;}
+
+
+}    
+
+
 
 @media screen and (max-width:1024px){
-    #header .center{max-width:800px;}
 
     /* SliderSection Style */
     #sliderSec .sliderTxt span{font-size:150px;}
     #sliderSec .sliderTxt{transform: scaleX(1); transition:all 0.4s ease-in-out; transition:all 0.4s ease-in-out;}
 
-    /* serviceSection Style */
-    
+
+    /* serviceSection Style */    
     #serviceSec .serviceCon .conBox{grid-template-columns: repeat(1, 1fr); grid-template-rows: repeat(3,minmax(0, auto));}
     #serviceSec .serviceCon .conBox .item{flex-direction: row; align-items: space-between; _position:relative;}
     #serviceSec .serviceCon .conBox .item .imgBox .iconBox{display:none;}
@@ -38,10 +62,9 @@
 
 
 @media screen and (max-width:800px){
-    #header{padding:0 30px;}
+    /* #header{padding:0 30px;}     */
     
-    
-    
+    /* Slider Section Style */
     #sliderSec .sliderTxt{transform: scaleX(0.9); transition:all 0.4s ease-in-out;}
     #sliderSec .sliderTxt{font-size: 100px;justify-content: space-around; transition:all 0.4s ease-in-out}
     #serviceSec .serviceCon .conBox .item .txtBox span:nth-child(1){padding-right: 80px;}

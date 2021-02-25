@@ -11,8 +11,8 @@
 
 #header{width:100%;height:100px; background: #fff; position: fixed; top:0; left:0; display:flex; align-items:center;
 z-index:999;}
-#header .center{width:100%; height:auto; max-width:1100px; margin:auto; position:relative;}
-#header .center .topLogo{float:left; width:25%; height:50px;}
+#header .center{position:relative; }
+#header .center .topLogo{float:left; width:25%; height:50px; padding-left:10px;}
 #header .center .topLogo a{width:100%; height:100%; }
 #header .center .topLogo img{height:100%; left:0;}
 
@@ -52,7 +52,7 @@ display:flex; justify-content: flex-start; bottom:25%;}
 
 /* Slider Section sliderTxt style */
 #sliderSec .sliderEmblem{position:absolute;width:43px; height:43px; transition:all 0.6s; right:20%;top:0;}
-#sliderSec .sliderEmblem img{width:100%; animation: rotate_image 10s linear infinite;
+#sliderSec .sliderEmblem img{width:100%; animation: rotateImage 10s linear infinite;
     transform-origin: 50% 50%;}
 #sliderSec .sliderTxt{width: 100%; height: 300px; position:absolute; display:flex; justify-content: space-evenly; 
     align-items: center; top:34%;text-align: center; z-index: 100; transition:all 0.4s ease-in-out;}
@@ -63,9 +63,8 @@ transition:padding 1.2s cubic-bezier(0.65, 0.05, 0.36, 1);}
 /***********************
  Service Section style 
  **************************/
- #serviceSec{width:100%; height:auto; position:relative; background: linear-gradient(to bottom, rgba(252,247,239,1) 0%,rgba(255,255,255,0) 100%);
-margin-bottom: 50px;}
- #serviceSec .center{width:100%; height:auto; max-width:1600px; margin:auto; }
+ #serviceSec{position:absolute;width:100%; height:auto; position:relative; background: linear-gradient(to bottom, rgba(252,247,239,1) 0%,rgba(255,255,255,0) 100%);
+margin-bottom: 100px; transition:all 0.4s linear}
 
  /* serviceTit style */
  #serviceSec .serviceTit{width:100%; height:auto;display:flex; justify-content: center; align-items: center; flex-direction:column; }
@@ -96,18 +95,15 @@ no-repeat 50% 0; top:80%; display:flex; justify-content: center; align-items: ce
 #serviceSec .serviceCon .conBox .item .txtBox{margin-top:50px; width:100%; text-align: center;max-width: 70%;}
 #serviceSec .serviceCon .conBox .item .txtBox h3{display: block;margin-bottom:10px; font-family: 'Noto Sans KR';}
 #serviceSec .serviceCon .conBox .item .txtBox span{display: block; margin-bottom: 20px; font-weight: 400; font-family: 'Noto Sans KR'}
-/* #serviceSec .serviceCon .conBox .item .txtBox button{width:60%; height:50px; font-family: 'Source Sans Pro'; color:#514d4d;
-_text-transform: uppercase; font-size:18px; font-weight: 600; background: #fff; border-radius: 3px; cursor:pointer;
-border:1px solid #514d4d; transition: all 0.4s; } */
 #serviceSec .serviceCon .conBox .item .txtBox button:hover{color:#fff; background: #cd056d; border:1px solid #cd056d;}
 
 
 /***********************
  Grid Section style 
  **************************/
- #gridSec{width:100%; height: auto; }
- #gridSec .gridBox{width:100%; height:auto; display:grid; grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(5,minmax(200px, auto)); _align-items:stretch; align-content:center; justify-content: center; _border:1px solid #cd056d;}
+ #gridSec{width:100%; height: auto; margin-bottom:100px;}
+ #gridSec .gridBox{width:100%; height:auto; display:grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(5,minmax(200px, auto)); 
+_align-items:stretch; align-content:center; justify-content: center; _border:1px solid #cd056d; transition:all 0.4s ease;}
 
 #gridSec .gridBox .item{width:100%; height:auto; position:relative; display:flex; justify-content: center; align-items: center;
 _border:1px solid #cd056d; _transition: all 0.4s ease-in-out;}
@@ -149,13 +145,32 @@ font-weight: 500; color:#fff; }
 
 
 /* Gridbox Button Style */
-#gridSec .gridBox .item .txtBox button{border:1px solid #fff; color:#fff; font-family:'Source Sans Pro' ; margin-top:30px;}
-#gridSec .gridBox .item2 .txtBox button{font-weight: 300; font-size:16px;}
+#gridSec .gridBox .item .txtBox button{border:1px solid #fff; color:#fff; font-family:'Source Sans Pro' ; margin:30px 5px;}
+#gridSec .gridBox .item .txtBox button:hover{color:#fff; background: #cd056d; border:1px solid #cd056d;}
+
+#gridSec .gridBox .item2 .txtBox button{font-weight: 600; font-size:16px; _margin:5px;}
+#gridSec .gridBox .item2 .txtBox button:hover{color:#cd056d; background: #fcf7ef; border:1px solid #fcf7ef;}
 
 #gridSec .gridBox .item5 .txtBox button,
 #gridSec .gridBox .item8 .txtBox button
 {color:#514d4d; border:1px solid #514d4d;}
 
+
+/***********************
+Contact Section style 
+ **************************/
+ #contactSec{width:100%; height: auto;  margin-bottom: 100px;}
+ #contactSec .contactCon{width:100%; height:500px; padding:50px 0;}
+ #contactSec .contactCon ul{height:250px; display:flex; _flex-direction:row; justify-content: space-between; align-items: center;
+top:50%;}
+ #contactSec .contactCon ul li{width:33.33%; height:auto;margin:5px;box-sizing: border-box; display:flex; flex-direction: column; 
+align-items: center;}
+
+ #contactSec .contactCon ul li .imgBox{width:200px; height:200px; background:#cd056c0c; _border:1px solid #514d4d77;
+border-radius: 50%; display:flex; justify-content: center; align-items: center; }
+ #contactSec .contactCon ul li .imgBox img{max-width: 100%; max-height: 100%;}
+
+#contactSec .contactCon ul li .txtBox{margin-top:20px; font-weight: 500; font-size:18px;}
 
 
 

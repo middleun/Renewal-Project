@@ -1,4 +1,4 @@
-@keyframes rotate_image{
+@keyframes rotateImage{
 	100% {
     	transform: rotate(360deg);
     }
