@@ -17,22 +17,34 @@ $(function(){
 
 
     // topNavBar Click
-
-    $(this).hasClass("click");
-    const navBar=function(){
         $(".topNavBar").click(function(){
             $(this).toggleClass("click");
             if($(this).hasClass("click")){
                 $(this).find("i").attr("class","fas fa-times");
+                
                 // $(".hiddenNav").show("fast");
             }else{
                 $(this).find("i").attr("class", "fas fa-bars");
+                $(this).toggleClass("click");
                 // $(".hiddenNav").hide("fast");
 
             }
         });
-    }
-    navBar();
+        
+        // $(".topNavBar").click(function(){
+        //     $(this).toggleClass("rotate");
+        //     if($(this).hasClass("rotate")){           
+        //         $(".hiddenNav").slideDown("fast");
+
+        //     }else{
+                
+                
+        //         $(".hiddenNav").slideUp("fast");
+
+        //     }
+        // });
+   
+   
 
     // Resize 비율유지 
     // $(document).ready(function(){
@@ -87,6 +99,9 @@ $(function(){
 
 
     });
+
+   
+  
 
     
 

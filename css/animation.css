@@ -1,5 +1,37 @@
+
+/* SliderSection Animation */
+#sliderSec .sliderWrap .sliderImg .slider{animation:fadeIn 1.2s linear ;}
+/* #sliderSec .sliderTxt span.aniCon1{animation:left 1.2s linear forwards;} */
+/* #sliderSec .sliderTxt span.aniCon2{animation:right 1.2s linear forwards;} */
+
+
+
+
+
+
 @keyframes rotateImage{
 	100% {
     	transform: rotate(360deg);
     }
 }    
+
+@keyframes fadeIn {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
+
+@keyframes left{
+	0%{transform:translate(0);}
+	100%{transform:translateX(-80px);}
+		
+}
+
+@keyframes right{
+	0%{transform:translate(0);}
+	100%{transform:translateX(80px);}
+		
+}

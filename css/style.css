@@ -3,18 +3,18 @@
 
 
 /* Header Style */
-#header{width:100%;height:100px; background: #fff; position: fixed; top:0; left:0; display:flex; align-items:center;
+#header{width:100%;height:110px; background: #fff; position: fixed; top:0; left:0; display:flex; align-items:center;
 z-index:999;}
 #header .center{position:relative; }
-#header .center .topLogo{float:left; width:25%; height:50px; padding-left:10px;}
-#header .center .topLogo a{width:100%; height:100%; }
+#header .center .topLogo{float:left; width:25%; height:60px; padding-left:10px;}
+#header .center .topLogo a{width:100%; height:auto; }
 #header .center .topLogo img{height:100%; left:0;}
 
 
-#header .topNavBar{float:right; height:100%; _display:flex; _justify-content: center; _align-items: center;}
-#header .topNavBar a{width:50px; height:50px; _padding:30px; display:flex; justify-content: center;
+#header .topNavBar{float:right; height:100%; }
+#header .topNavBar a{width:60px; height:60px; display:flex; justify-content: center;
 align-items: center; cursor: pointer;}
-#header .topNavBar a i{display:block;font-size:30px; font-weight:200; color:#514d4d;}
+#header .topNavBar a i{display:block;font-size:40px; font-weight:200; color:#514d4d; }
 
 /* main contents container style */
 .container{width:100%; height:auto;}
@@ -25,25 +25,12 @@ align-items: center; cursor: pointer;}
  *************************/
 
 /* Slider Section SliderWrap style */
-#sliderSec{width:100%; height:880px; background:#fcf7ef; position:relative;}
-#sliderSec .sliderWrap{width:530px; height:100%; z-index:999; margin:auto; _top:20%;}
-/* #sliderSec .sliderWrap .sliderImg{width:100%; max-width:530px;  z-index:999;} */
-#sliderSec .sliderWrap .sliderImg img{width:100%;} */
-
-
-/* Slider Section sliderWrap style */
-/* #sliderSec .sliderWrap{position:relative;width:100%; height:880px;margin: 0px auto; _background:#ddd;}
-#sliderSec .sliderWrap .slider{position:relative; width:530px; height:500px; z-index:10; left:0;top:0;
-_background:url(../img/main_slide_1.png) no-repeat center center; _background-size: contain; transition:all 0.4s ease-in-out;
+#sliderSec{width:100%; height:950px; background:#fcf7ef; position:relative; _padding-bottom:100px;
 display:flex; justify-content: center; align-items: center;}
-#sliderSec .sliderWrap .slider img{height:100%; } */ 
+#sliderSec .sliderWrap{width:580px;margin:auto; }
 
-/* #sliderSec .sliderWrap .item1{background-image:url(../img/main_slide_1.png);}
-#sliderSec .sliderWrap .item2{background-image: url(../img/main_slide_2.png);}
-#sliderSec .sliderWrap .item3{background-image: url(../img/main_slide_3.png);}
-#sliderSec .sliderWrap .item4{background-image: url(../img/main_slide_4.png);} */
 
-/* Slider Section sliderDots style */
+/* Slider Section slider Indicator style */
 #sliderSec .sliderWrap .sliderDots{display:block; position:absolute; width :100%; left:0%; transform: translateX(-100%);
 display:flex; justify-content: flex-start; bottom:25%;}
 #sliderSec .sliderWrap .sliderDots li{width:25%;border-bottom:2px solid #dcd3c9; }
@@ -56,10 +43,10 @@ display:flex; justify-content: flex-start; bottom:25%;}
 #sliderSec .sliderEmblem{position:absolute;width:43px; height:43px; transition:all 0.6s; right:20%;top:0;}
 #sliderSec .sliderEmblem img{width:100%; animation: rotateImage 10s linear infinite;
     transform-origin: 50% 50%;}
-#sliderSec .sliderTxt{width: 100%; height: 300px; position:absolute; display:flex; justify-content: space-evenly; 
-    align-items: center; top:34%;text-align: center; z-index: 100; transition:all 0.4s ease-in-out;}
-#sliderSec .sliderTxt span{display:block; color:#514d4d; font-family:'Source Sans Pro';font-weight: 400; font-size: 200px;
-transition:padding 1.2s cubic-bezier(0.65, 0.05, 0.36, 1);}
+#sliderSec .sliderTxt{width: 100%; max-width:1300px;height: 400px; position:absolute; display:flex; justify-content: center; 
+    align-items: center; text-align: center; z-index: 100; }
+#sliderSec .sliderTxt span{display:block; color:#514d4d; font-family:'Source Sans Pro';font-weight: 400; font-size: 250px;
+padding:0; }
 
 
 /***********************
