@@ -1,13 +1,16 @@
 @media screen and (max-width:1700px){
        
     /* Slider Section Style */
+    #sliderSec .sliderTxt{transform:scale(0.9);}
     #sliderSec .sliderTxt span{font-size:170px; }
 }
 
 @media screen and (max-width:1400px){
 
     /* Slider Section Style */
-    #sliderSec .sliderWrap .slider{transform:scaleX(1);}
+    #sliderSec .sliderWrap .slider{transform:scaleX(1); transition:all 1.2s linear;}
+
+    #sliderSec .sliderTxt{transform:scale(0.8);}
 
     /* ServiceSection Style */
     #serviceSec .serviceCon .conBox .item .txtBox{max-width: 80%;}
@@ -21,7 +24,13 @@
     .center{max-width:1024px;}
     
     /* Common Button style */
-    button{width:120px; height:40px; font-size:16px; }
+    button{height:40px; font-size:16px; }
+
+    /* Slider Section Style */
+    #sliderSec .sliderWrap .slider{transform:scale(0.9); transition:all 1.2s linear;}
+
+    /* #sliderSec .sliderTxt{transform:scaleX(0.7);} */
+
 
     /* Service Section Style */
     #serviceSec .serviceCon .conBox .item .txtBox span{font-size:14px;}
@@ -49,12 +58,14 @@
 
 
 @media screen and (max-width:1024px){
-    .center{max-width:750px;}
+    .center{max-width:700px;}
 
 
     /* SliderSection Style */
     #sliderSec .sliderTxt span{font-size:150px;}
-    #sliderSec .sliderTxt{transform: scaleX(1); transition:all 0.4s ease-in-out; transition:all 0.4s ease-in-out;}
+    #sliderSec .sliderTxt{transition:all 0.4s ease-in-out;}
+
+    #serviceSec .serviceCon .conBox .item .txtBox
 
 
     /* serviceSection Style */    
@@ -62,7 +73,7 @@
     #serviceSec .serviceCon .conBox .item{flex-direction: row; align-items: space-between; _position:relative;}
     #serviceSec .serviceCon .conBox .item .imgBox .iconBox{display:none;}
     /* #serviceSec .serviceCon .conBox .item .imgBox{float:left;} */
-    #serviceSec .serviceCon .conBox .item .txtBox{text-align: left; padding-left:20px;}
+    #serviceSec .serviceCon .conBox .item .txtBox{text-align: left; margin-left:10px;}
 
 }
 
@@ -71,17 +82,33 @@
     /* #header{padding:0 30px;}     */
     
     /* Slider Section Style */
-    #sliderSec .sliderTxt{transform: scaleX(0.9); transition:all 0.4s ease-in-out;}
-    #sliderSec .sliderTxt{font-size: 100px;justify-content: space-around; transition:all 0.4s ease-in-out}
+    #sliderSec .sliderWrap .slider{transform:scale(0.8); transition:all 1.2s linear;}
+    #sliderSec .sliderTxt{transform: scale(0.8); transition:all 0.4s linear;}
+    #sliderSec .sliderTxt span{font-size:120px;}
+   
+    /* Service section  style */
     #serviceSec .serviceCon .conBox .item .txtBox span:nth-child(1){padding-right: 80px;}
+
+    /* footer style */
+    #footer .btmNav .btmQuick ul li span,
+    #footer .btmInfo li{font-size:14px;}
 
 }
 
 @media screen and (max-width:750px){
+    .center{max-width:600px;}
+
+
+    /* Slider Section Style */
+    #sliderSec .sliderWrap .slider{transform:scale(0.7); transition:all 1.2s linear;}
+    /* #sliderSec .sliderTxt{transform: scale(0.8); transition:all 0.4s linear;} */
+
+
+
 
     /* Service Section Style */
     #serviceSec .serviceCon .conBox .item .imgBox{display:none;}
-    #serviceSec .serviceCon .conBox .item .txtBox{max-width: 100%;}
+    #serviceSec .serviceCon .conBox .item .txtBox{max-width: 100%; text-align:center;}
 
     
     
@@ -91,24 +118,95 @@
     #gridSec .gridBox .item:nth-child(2){grid-row:2/3;height:300px;}
     #gridSec .gridBox .item:nth-child(3){grid-row:3/4;height:200px;}
     #gridSec .gridBox .item:nth-child(4){grid-row:4/5; grid-column:1/1; height:500px;}
-    #gridSec .gridBox .item:nth-child(5){grid-row:5/6;height:200px;}
-    #gridSec .gridBox .item:nth-child(6){grid-row:6/7;height:300px;}
+    #gridSec .gridBox .item:nth-child(5){grid-row:5/6;height:300px;}
+    #gridSec .gridBox .item:nth-child(6){grid-row:6/7;height:200px;}
     
     #gridSec .gridBox .item:nth-child(7){grid-row:8/9;height:200px;}
 
     #gridSec .gridBox .item:nth-child(8){grid-row:7/8;height:300px;}
+
+    #gridSec .gridBox .item4 .txtBox img{display:none;}
+
+    #gridSec .gridBox .item5 .txtBox, #gridSec .gridBox .item8 .txtBox{text-align:center; left:0;}
+    
+
+
+    /* footer styel */
+    #footer .btmInfo ul{justify-content: flex-start;}
+
+    /* Contact Section Style */
+    #contactSec .center{max-width:300px;}
+    #contactSec .contactCon ul{flex-direction: column;}
+    #contactSec .contactCon ul li{width:80%;}
+    #contactSec .contactCon ul li .imgBox{width:60px; height: 60px;}
+    #contactSec .contactCon ul li .txtBox{font-size: 14px;}
+
     
 }
 
 
 @media screen and (max-width:600px){
+
+    #header .center{max-width:480px;}
+    #header .center .topLogo{height:45px;}
+
    
     #header{height:80px;}
     #header .topLogo{margin:10px auto;}
 
+    /* Slider Section Style  */
+    #sliderSec .sliderTxt{transform: scale(0.7); transition:all 0.4s linear; flex-direction: column; justify-content: center;}
+    #sliderSec .sliderTxt span:nth-child(1){display:block;margin-right:20px;}
+
+    #sliderSec .sliderTxt span{font-size:100px;  }
+
+    /* Service Section Style */
+    #serviceSec .center {max-width: 80%; text-align:center;}
+
+    
+    
+
+
+    
+
+}
+
+@media screen and (max-width:480px){
+
+    button{width:100px; height:40px;}
+
+
+    #header .center{max-width:450px;}
+    #header .center .topLogo{height:45px;}
+    #header .topNavBar a{width:45x; height: 45px;;}
+
+     
+
+    /* Slider Section Style  */
+    #sliderSec .sliderWrap .slider{transform:scale(0.6); }
+    #sliderSec .sliderTxt{transform: scale(0.6); }
+   
+    #sliderSec .sliderTxt span{font-size:100px;  }
+
+    /* Service Section Style */
+    #serviceSec .center {max-width: 80%; text-align:center;}
+    #serviceSec .serviceTit h1{font-size: 30px;}
+    #serviceSec .serviceCon{margin-top: 0;}
+
+    /* grid section style */
+    #gridSec .gridBox .item .txtBox h3{font-size: 25px;}
+    #gridSec .gridBox .item .txtBox span{font-size:14px;}
+    #gridSec .gridBox .item2 .txtBox button{font-size:12px;}
+
+
     /* Contact Section Style */
-    #contactSec .center{max-width:500px;}
-    #contactSec .contactCon ul{flex-direction: column;}
-    #contactSec .contactCon ul li{width:100%;}
+    #contactSec .center{max-width:300px;}
+    
+    #footer .btmNav .btmLogo a{height:50px;}
+    #footer .btmNav .btmQuick ul li span, #footer .btmInfo li{font-size: 12px;;}
+    
+    
+
+
 }
 

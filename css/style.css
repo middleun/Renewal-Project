@@ -3,22 +3,41 @@
 
 
 /* Header Style */
-#header{width:100%;height:110px; background: #fff; position: fixed; top:0; left:0; display:flex; align-items:center;
-z-index:999;}
+#header{width:100%;height:100px; background: #fff; position: fixed; top:0; left:0; display:flex; align-items:center;
+    justify-content: center; z-index:999;}
 #header .center{position:relative; }
 #header .center .topLogo{float:left; width:25%; height:60px; padding-left:10px;}
 #header .center .topLogo a{width:100%; height:auto; }
 #header .center .topLogo img{height:100%; left:0;}
 
 
-#header .topNavBar{float:right; height:100%; }
-#header .topNavBar a{width:60px; height:60px; display:flex; justify-content: center;
-align-items: center; cursor: pointer;}
-#header .topNavBar a i{display:block;font-size:40px; font-weight:200; color:#514d4d; }
+#header .topNavBar{float:right; height:100%; margin-top:10px;}
+#header .topNavBar a{width:50px; height:50px; display:flex; flex-wrap: wrap; 
+justify-content: flex-end; padding:15px 10px 0 10px; cursor: pointer; _position:relative; }
+#header .topNavBar a span{display: block; _position: absolute; width:100%; 
+height:4px; background-color: #514d4d; border-radius: 4px; transition:all 0.4s; }
+#header .topNavBar a span:nth-child(1){top:0; }
+#header .topNavBar a span:nth-child(2){top: 20px;}
+#header .topNavBar a span:nth-child(3){bottom: 0;}
+
+
+/* when click topNavBar */
+#header .topNavBar a.active span:nth-child(1){transform: translateY(13px) rotate(45deg);}
+#header .topNavBar a.active span:nth-child(2){opacity:0;}
+#header .topNavBar a.active span:nth-child(3){transform : translateY(-10px) rotate(-45deg);}
+
 
 /* main contents container style */
 .container{width:100%; height:auto;}
 
+/***********************
+ Hidden Navigation style 
+ *************************/
+/* #hiddenNav{_display: none; position: fixed; left: 0; top: 0; bottom: 0; width:100%; height:auto; background-color: #fcf7ef;
+z-index: 999; box-sizing: border-box;}
+#hiddenNav .hiddenLeft{width:30%; display:block;background:url(../img/hiddenNav_left_img.jpg) no-repeat center center;
+background-size: cover;}
+#hiddenNav .hiddenRight{width:70%; } */
 
 /***********************
  Slider Section style 
@@ -30,22 +49,13 @@ display:flex; justify-content: center; align-items: center;}
 #sliderSec .sliderWrap{width:580px;margin:auto; }
 
 
-/* Slider Section slider Indicator style */
-#sliderSec .sliderWrap .sliderDots{display:block; position:absolute; width :100%; left:0%; transform: translateX(-100%);
-display:flex; justify-content: flex-start; bottom:25%;}
-#sliderSec .sliderWrap .sliderDots li{width:25%;border-bottom:2px solid #dcd3c9; }
-#sliderSec .sliderWrap .sliderDots li button{display:block;outline:none; border-style: none; padding-bottom:20px; background:none;
-    font-family: 'Poppins'; cursor: pointer; }
-#sliderSec .sliderWrap .sliderDots li button.active{color:#cd056d;}
-
-
 /* Slider Section sliderTxt style */
 #sliderSec .sliderEmblem{position:absolute;width:43px; height:43px; transition:all 0.6s; right:20%;top:0;}
 #sliderSec .sliderEmblem img{width:100%; animation: rotateImage 10s linear infinite;
     transform-origin: 50% 50%;}
-#sliderSec .sliderTxt{width: 100%; max-width:1300px;height: 400px; position:absolute; display:flex; justify-content: center; 
-    align-items: center; text-align: center; z-index: 100; }
-#sliderSec .sliderTxt span{display:block; color:#514d4d; font-family:'Source Sans Pro';font-weight: 400; font-size: 250px;
+#sliderSec .sliderTxt{width: 100%; max-width:1300px;height: 400px; position:absolute; display:flex; justify-content: space-around; 
+    align-items: center; text-align: center; z-index: 100; transition:all 1.2s linear;}
+#sliderSec .sliderTxt span{display:block; color:#514d4d; font-family:'Source Sans Pro';font-weight: 400; font-size: 200px;
 padding:0; }
 
 
@@ -148,8 +158,8 @@ font-weight: 500; color:#fff; }
 /***********************
 Contact Section style 
  **************************/
- #contactSec{width:100%; height: auto;  margin-bottom: 100px; }
- #contactSec .contactCon{width:100%; height:500px; padding:50px 0;}
+ #contactSec{width:100%; height: auto;   margin-bottom: 100px;}
+ #contactSec .contactCon{width:100%; height:auto; }
  #contactSec .contactCon ul{display:flex; _flex-direction:row; justify-content: space-evenly; align-items: center;
 top:50%;}
  #contactSec .contactCon ul li{width:250px; height:250px;margin:5px;box-sizing: border-box; display:flex; flex-direction: column; 
@@ -166,19 +176,30 @@ align-items: center; background:#fcf7ef; border-radius: 20px; justify-content: c
 /***********************
 Footer style 
  **************************/
-#footer{background:#514d4d; width:100%; height:300px;}
-#footer .btmNav{width:100%; height:auto; padding:50px 0;}
-#footer .btmLogo{float:left; width:25%; height:50px; padding-left:20px;}
-#footer .btmLogo a{width:100%; height:100%; }
-#footer .btmLogo img{height:100%; left:0;}
+#footer{background:#514d4d; width:100%; height:auto;}
+#footer .btmNav{width:100%; height:auto; padding:50px 0; display:flex; justify-content: space-between; align-items: center;}
+#footer .btmNav .btmLogo{width:25%; height:50px; padding-left:20px;}
+#footer .btmNav .btmLogo a{width:100%; height:100%; }
+#footer .btmNav .btmLogo img{height:100%; left:0;}
 
 
-#footer .btmQuick{float:right; width:50%;height:100%; }
-#footer .btmQuick ul{width:100%; }
-#footer .btmQuick ul li{display:block;}
-#footer .btmQuick ul li span{display:block; display:flex; flex-direction: row; }
-#footer .btmQuick a{cursor: pointer; color:#fff;}
-#footer .btmQuick a i{display:block;font-size:18px; font-weight:200; color:#fff;}
+#footer .btmNav .btmQuick{width:50%;height:100%; margin-right:20px;}
+#footer .btmNav .btmQuick ul{width:100%; display:flex; justify-content: flex-end; }
+#footer .btmNav .btmQuick ul li{display:block; margin-left:20px; }
+#footer .btmNav .btmQuick ul li span{display:inline-block; }
+#footer .btmNav .btmQuick ul li span a{font-family: 'Noto Sans KR';  cursor:pointer;display:flex; justify-content: center; align-items:center;
+color:rgba(255, 255, 255, 0.575);}
+#footer .btmNav .btmQuick ul li span a i{display:block;font-size:16px; font-weight:200; color:#fff; box-sizing: border-box;
+padding-left:10px; color:rgba(255, 255, 255, 0.575);} 
+
+#footer .btmInfo{width:100%; height:auto; padding:20px;}
+#footer .btmInfo ul{width:100%; display:flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start;}
+#footer .btmInfo li{width:33.33; color:rgba(255, 255, 255, 0.575);  display:flex; flex-direction: row; flex-wrap: wrap;
+margin-bottom: 10px;}
+#footer .btmInfo li span{display: block; padding-right:10px;}
+
+#footer .btmInfo p{width:100%; display:block; font-family: 'Source Sans Pro'; color:rgba(255, 255, 255, 0.575); margin-top: 20px;}
+
 
 
 

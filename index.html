@@ -44,11 +44,84 @@
                     
                 </div>
                 <div class="topNavBar">
-                    <a href="#"><i class="fas fa-bars"></i></a>
-                </div>        
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div> 
+                     
             </div>
             
         </div>
+        <!-- end of header -->
+        <!-- <div id="hiddenNav">
+            <div class="hiddenLeft">
+                <img src="./img/hiddenNav_left_img.jpg" alt="">
+            </div>
+            <div class="hiddenRight">
+                <div class="center">
+                    <ul class="navDepth1">
+                        <li>
+                            <a href="#"></a>
+                            <ul class="navDepth2">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>                            
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                            <ul class="navDepth2">
+                                <li></li>
+                                <li></li>
+                               
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                            <ul class="navDepth2">
+                                <li></li>
+                                <li></li>
+                               
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                            <ul class="navDepth2">
+                                <li></li>
+                                <li></li>
+                               
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                            <ul class="navDepth2">
+                                <li></li>
+                                <li></li>
+                               
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                            <ul class="navDepth2">
+                                <li></li>
+                                <li></li>
+                               
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                  
+                </div>
+                <-- end of hidden nav center -->
+            <!-- </div>
+
+        </div> -->
+        <!-- end of Hidden Navigation -->
+
         <div class="container">
             <section id="sliderSec" >                      
 
@@ -284,18 +357,18 @@
         <!-- end of Contents Container -->
         <footer id="footer">
             <div class="center">
-                <div class="btmNav clear">
+                <div class="btmNav">
                     <div class="btmLogo">
                         <a href="#"><img src="img/f_logo.png"></a>
                         
                     </div>
-                    <div class="btmQuick">
+                    <div class="btmQuick clear">
                         <ul>
                             <li>
-                                <span><a href="#">개인정보취급방침      <i class="fas fa-chevron-right"></i></a></span>
+                                <span><a href="#">개인정보취급방침 <i class="fas fa-chevron-right"></i></a></span>
                             </li>
                             <li>
-                                <span><a href="#">개인정보취급방침      <i class="fas fa-chevron-right"></i></a></span>
+                                <span><a href="#">이용약관 <i class="fas fa-chevron-right"></i></a></span>
 
                             </li>
                         </ul>
@@ -303,7 +376,47 @@
                     </div>        
 
                 </div>
-                <div class="ftrInfo">
+                <div class="btmInfo clear">
+                    <ul>
+                        <li>
+                            상호   |<span>감동케어 해피베이비 산후도우미</span>
+                        </li>
+                        <li>
+                            대표   |<span>석준희</span>
+
+                        </li>
+                        <li>
+                            사업자등록번호   |<span>124-94-56003 </span>
+
+                        </li>
+                        <li>
+                            직업소개사업등록필   |<span>수원-유2011-63 </span>
+
+                        </li>
+                        <li>
+                            통신판매등록필   |<span>수원-2694호 </span>
+                        </li>
+                        <li>
+                            서비스등록   |<span>제-41-0216802</span>
+                        </li>
+                        <li>
+                            인허가공제번호   |<span>01-111024-8423 </span>
+                        </li>
+                        <li>
+                            주소   |<span>서울특별시 영등포구 국회대로53길 23 4층</span>
+                        </li>
+                        <li>
+                               |<span>경기도 수원시 팔달구 덕영대로 697번길 17, 304호 </span>
+                        </li>
+                        <li>
+                            대표번호   |<span>02-335-3713</span>  <span>  |  1577-7853 </span>
+                        </li>
+                       
+
+                        
+
+                    </ul>
+                    <p>Copyright © Happybb.com co., Ltd. All Rights Reserved.</p>
 
                 </div>
             </div>
@@ -343,27 +456,27 @@
 
         // Resize시 전체 크기 축소 
         
-        function resizeContents(){ 
-            // const sliderSec = document.getElementById('#sliderSec');
-            let scale =1;
+        // function resizeContents(){ 
+        //     // const sliderSec = document.getElementById('#sliderSec');
+        //     let scale =1;
 
-                // if(window.innerWidth < 1024){
-                //     document.body.style.zoom = scale/1.05;
-                // } else 
+        //         // if(window.innerWidth < 1024){
+        //         //     document.body.style.zoom = scale/1.05;
+        //         // } else 
                 
-                if(window.innerWidth < 750) { 
-                    document.body.style.zoom = scale/1.5; 
-                } else {
-                    document.body.style.zoom = scale; 
-                } 
+        //         if(window.innerWidth < 750) { 
+        //             document.body.style.zoom = scale/1.5; 
+        //         } else {
+        //             document.body.style.zoom = scale; 
+        //         } 
             
-            window.onload = function() { 
-                window.addEventListener('resize', function() {
-                 resizeContents(); 
-                });
-            }     
-        } 
-        resizeContents();
+        //     window.onload = function() { 
+        //         window.addEventListener('resize', function() {
+        //          resizeContents(); 
+        //         });
+        //     }     
+        // } 
+        // resizeContents();
        
     
 

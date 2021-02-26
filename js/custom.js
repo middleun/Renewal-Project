@@ -20,12 +20,12 @@ $(function(){
         $(".topNavBar").click(function(){
             $(this).toggleClass("click");
             if($(this).hasClass("click")){
-                $(this).find("i").attr("class","fas fa-times");
+                $(".topNavBar").find("a").addClass("active");
                 
                 // $(".hiddenNav").show("fast");
             }else{
-                $(this).find("i").attr("class", "fas fa-bars");
-                $(this).toggleClass("click");
+                $(".topNavBar").find("a").removeClass("active");
+                // $(this).toggleClass("click");
                 // $(".hiddenNav").hide("fast");
 
             }

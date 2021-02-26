@@ -74,11 +74,11 @@
 /* Pager */
 .lSSlideOuter .lSPager.lSpg {
     margin: 10px 0 0;
-    padding: 0;
+    padding-top: 50px;
     text-align: center;
-    /* display:block;
-    position:absolute;
-    transform:translateX(-80%); */
+    display:block;
+    box-sizing: border-box;
+    /* transform:translateX(-80%); */
 }
 .lSSlideOuter .lSPager.lSpg > li {
     cursor: pointer;
@@ -88,10 +88,10 @@
     
 }
 .lSSlideOuter .lSPager.lSpg > li a {
-    background-color: #514d4d2a;
+    background-color: #514d4d50;
     
     display: inline-block;
-    height: 2px;
+    height: 3px;
     overflow: hidden;
     text-indent: -999em;
     width: 40px;
