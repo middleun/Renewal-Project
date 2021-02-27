@@ -50,6 +50,7 @@
 
     /* Contact Section Style */
     /* #contactSec .center{max-width:1100px;} */
+
     #contactSec .contactCon ul li .imgBox{width:80px; height:80px;}
 
 
@@ -58,7 +59,7 @@
 
 
 @media screen and (max-width:1024px){
-    .center{max-width:700px;}
+    .center{max-width:800px;}
 
 
     /* SliderSection Style */
@@ -79,6 +80,8 @@
 
 
 @media screen and (max-width:800px){
+    .center{max-width:700px;}
+
     /* #header{padding:0 30px;}     */
     
     /* Slider Section Style */
@@ -88,6 +91,9 @@
    
     /* Service section  style */
     #serviceSec .serviceCon .conBox .item .txtBox span:nth-child(1){padding-right: 80px;}
+
+    /* Contact Sesction Style */
+    #contactSec .contactCon ul li{width:50%; flex-direction: column;}
 
     /* footer style */
     #footer .btmNav .btmQuick ul li span,
