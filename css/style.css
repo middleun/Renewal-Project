@@ -33,11 +33,15 @@ height:4px; background-color: #514d4d; border-radius: 4px; transition:all 0.4s; 
 /***********************
  Hidden Navigation style 
  *************************/
-/* #hiddenNav{_display: none; position: fixed; left: 0; top: 0; bottom: 0; width:100%; height:auto; background-color: #fcf7ef;
-z-index: 999; box-sizing: border-box;}
-#hiddenNav .hiddenLeft{width:30%; display:block;background:url(../img/hiddenNav_left_img.jpg) no-repeat center center;
+#hiddenNav{display: none; position: fixed; left: 0; right:0; top: 0; bottom: 0; width:100%; 
+height:auto; background-color: #fcf7ef;z-index: 999; box-sizing: border-box;}
+#hiddenNav .hiddenLeft{float:left;width:30%; display:block;background:#cd056d no-repeat center center;
 background-size: cover;}
-#hiddenNav .hiddenRight{width:70%; } */
+#hiddenNav .hiddenRight{float:right; width:70%; height:100%; vertical-align: top; padding:50px;}
+#hiddenNav .hiddenRight .center{max-width: 800px;}
+#hiddenNav .hiddenRight .navDepth1{width:100%; height:100%;}
+#hiddenNav .hiddenRight .navDepth1 li{float:left; width:33.33%; }
+
 
 /***********************
  Slider Section style 
@@ -160,8 +164,7 @@ Contact Section style
  **************************/
  #contactSec{width:100%; height: auto;   margin-bottom: 100px;}
  #contactSec .contactCon{width:100%; height:auto; }
- #contactSec .contactCon ul{display:flex; _flex-direction:row; justify-content: space-evenly; align-items: center;
-}
+ #contactSec .contactCon ul{display:flex; _flex-direction:row; justify-content: space-evenly; align-items: center;}
  #contactSec .contactCon ul li{width:25%; height:200px;margin:5px;box-sizing: border-box; display:flex; flex-direction: column; 
 align-items: center; background:#fcf7ef; border-radius: 20px; justify-content: center;transition:all 0.5s linear; cursor: pointer;}
 #contactSec .contactCon ul li:hover{transform:scale(1.05); background:#fceae6;}

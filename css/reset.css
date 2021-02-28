@@ -4,7 +4,7 @@ body{_overflow:hidden; color: #514d4d; font-size:16px; font-family:'Noto Sans KR
 font-weight: 300;background:#fff; transition: all 0.4s ease-in-out;  box-sizing: border-box;;}
 .clear:after{clear:both; display:block; content:''; }
 
-.wrap{width:100%; height:auto;  overflow:hidden;} 
+.wrap{width:100%; height:auto;  overflow:hidden; position:relative;} 
 .center{width:100%; height:auto; max-width:1200px; margin:auto;transition:all 0.4s linear; _position:relative;}
 
 ol,ul{list-style: none;}
@@ -15,7 +15,7 @@ img{display:block;}
 body::-webkit-scrollbar{width: 15px;}
 body::-webkit-scrollbar-thumb{background:#514d4d; border-radius:10px; background-clip: padding-box;
     border: 2px solid transparent;}
-body::-webkit-scrollbar-track{background: #fff;}
+body::-webkit-scrollbar-track{background: #fdf4e52d;}
 
 /* Common Button, a style */
 button{width:150px; height:50px; font-family: 'Source Sans Pro'; color:#514d4d;

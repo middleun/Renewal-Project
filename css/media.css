@@ -93,7 +93,8 @@
     #serviceSec .serviceCon .conBox .item .txtBox span:nth-child(1){padding-right: 80px;}
 
     /* Contact Sesction Style */
-    #contactSec .contactCon ul li{width:50%; flex-direction: column;}
+    /* #contactSec .contactCon ul{} */
+    #contactSec .contactCon ul li{width:50%; }
 
     /* footer style */
     #footer .btmNav .btmQuick ul li span,
