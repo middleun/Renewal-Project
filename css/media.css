@@ -94,7 +94,10 @@
 
     /* Contact Sesction Style */
     /* #contactSec .contactCon ul{} */
-    #contactSec .contactCon ul li{width:50%; }
+    #contactSec .contactCon ul{flex-wrap:wrap; justify-content: center;}
+    #contactSec .contactCon ul li{width:48.5%; }
+    
+
 
     /* footer style */
     #footer .btmNav .btmQuick ul li span,
@@ -110,14 +113,9 @@
     #sliderSec .sliderWrap .slider{transform:scale(0.7); transition:all 1.2s linear;}
     /* #sliderSec .sliderTxt{transform: scale(0.8); transition:all 0.4s linear;} */
 
-
-
-
     /* Service Section Style */
     #serviceSec .serviceCon .conBox .item .imgBox{display:none;}
-    #serviceSec .serviceCon .conBox .item .txtBox{max-width: 100%; text-align:center;}
-
-    
+    #serviceSec .serviceCon .conBox .item .txtBox{max-width: 100%; text-align:center;}    
     
     /* GridSection Style */
     #gridSec .gridBox{grid-template-columns: repeat(1, 1fr); grid-template-rows: repeat(8,minmax(200px, auto)); }
@@ -142,9 +140,10 @@
     #footer .btmInfo ul{justify-content: flex-start;}
 
     /* Contact Section Style */
-    #contactSec .center{max-width:300px;}
-    #contactSec .contactCon ul{flex-direction: column;}
-    #contactSec .contactCon ul li{width:80%;}
+    #contactSec .center{max-width:600px;}
+    /* #contactSec .contactCon ul{flex-direction: column;} */
+    /* #contactSec .contactCon ul li{width:80%;} */
+    #contactSec .contactCon ul li{width:45%; }
     #contactSec .contactCon ul li .imgBox{width:60px; height: 60px;}
     #contactSec .contactCon ul li .txtBox{font-size: 14px;}
 
@@ -154,7 +153,7 @@
 
 @media screen and (max-width:600px){
 
-    #header .center{max-width:480px;}
+    .center{max-width:480px;}
     #header .center .topLogo{height:45px;}
 
    
@@ -169,8 +168,12 @@
 
     /* Service Section Style */
     #serviceSec .center {max-width: 80%; text-align:center;}
-
     
+    /* Contact Section Style */
+    #contactSec .center{max-width:480px;}
+    /* #contactSec .contactCon ul li{width:43%; } */
+    #contactSec .contactCon ul li .imgBox{width:50px; height: 50px;}
+    #contactSec .contactCon ul li .txtBox{font-size: 14px;}
     
 
 
@@ -208,7 +211,9 @@
 
     /* Contact Section Style */
     #contactSec .center{max-width:300px;}
-    
+    #contactSec .contactCon ul li{width:90%; }
+
+    /* footer style */
     #footer .btmNav .btmLogo a{height:50px;}
     #footer .btmNav .btmQuick ul li span, #footer .btmInfo li{font-size: 12px;;}
     
