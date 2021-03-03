@@ -10,5 +10,9 @@
 6. 반응형 폰트 사이즈 조절✔ 
 7. 버튼 호버 효과 ✔
 8. hide 내비게이션
+   >> 2depth는 드롭다운으로
 9. 가로 스크롤 없애기✔ 
 10. topNav 클릭시 효과✔
+11. service section 레이아웃 변경
+12. 헤더 color변경 안되는 문제 - js 수정
+13. service section 반응형 깨짐 문제 수정✔

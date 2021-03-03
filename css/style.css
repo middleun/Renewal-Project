@@ -39,12 +39,15 @@ height:auto; background-color: #fcf7ef;z-index: 999; box-sizing: border-box;}
 background-size: cover;}
 #hiddenNav .hiddenRight{float:right; width:70%; height:100%; vertical-align: top; padding:50px;}
 #hiddenNav .hiddenRight .center{max-width: 800px;}
-#hiddenNav .hiddenRight .navDepth1{width:100%; height:100%;}
-#hiddenNav .hiddenRight .navDepth1 li{float:left; width:33.33%; }
+#hiddenNav .hiddenRight .navDepth1{width:100%; height:100%; }
+#hiddenNav .hiddenRight .navDepth1 li{float:left; width:33.33%;margin-bottom:50px; }
+#hiddenNav .hiddenRight .navDepth1 .navDepth2{display: flex; flex-direction: column;}
+#hiddenNav .hiddenRight .navDepth1 .navDepth2 li{width:100%; margin-bottom: 5px;}
+
 
 
 /***********************
- Slider Section style 
+ Slider Section style         
  *************************/
 
 /* Slider Section SliderWrap style */
