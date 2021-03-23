@@ -16,34 +16,34 @@ $(function(){
     
 
 
-    // topNavBar Click
+    // hidden menu slide down when topNavBar Click
+    
+    $("#hiddenNav").hide();
         $(".topNavBar").click(function(){
             $(this).toggleClass("click");
             if($(this).hasClass("click")){
-                $(".topNavBar").find("a").addClass("active");
-                
-                // $(".hiddenNav").show("fast");
+                $(".topNavBar").find("a").addClass("active");                
+                $("#hiddenNav").slideDown("fast");
+                $("body").toggleClass("overflow-hidden");               
+
             }else{
                 $(".topNavBar").find("a").removeClass("active");
                 // $(this).toggleClass("click");
-                // $(".hiddenNav").hide("fast");
+                $("#hiddenNav").slideUp("fast");
 
             }
         });
+        // accordion menu effect
+        $(".mainDepth").find(".accordion-toggle").click(function() {     
+
+                $(this).find("ul").toggleClass("open").slideToggle("fast");
+                $(this).toggleClass("active-tab").find(".subDepth").toggleClass("active");
+                $(".subDepth").not($(this).find("ul")).slideUp("fast").removeClass("open");
+                $(".accordion-toggle").not(jQuery(this)).removeClass("active-tab").find(".subDepth").removeClass("active");
+            
+        });
         
-        // $(".topNavBar").click(function(){
-        //     $(this).toggleClass("rotate");
-        //     if($(this).hasClass("rotate")){           
-        //         $(".hiddenNav").slideDown("fast");
 
-        //     }else{
-                
-                
-        //         $(".hiddenNav").slideUp("fast");
-
-        //     }
-        // });
-   
    
 
     // Resize 비율유지 

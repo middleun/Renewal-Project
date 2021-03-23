@@ -66,14 +66,18 @@
     #sliderSec .sliderTxt span{font-size:150px;}
     #sliderSec .sliderTxt{transition:all 0.4s ease-in-out;}
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> b4042d7775766c212ce13a8e2141ee3e036d3cc2
 
     /* serviceSection Style */    
     #serviceSec .serviceCon .conBox{grid-template-columns: repeat(1, 1fr); grid-template-rows: repeat(3,minmax(0, auto));}
     #serviceSec .serviceCon .conBox .item{flex-direction: row; align-items: space-between; _position:relative;}
+    #serviceSec .serviceCon .conBox .item .imgBox{margin-right:20px;}
     #serviceSec .serviceCon .conBox .item .imgBox .iconBox{display:none;}
     /* #serviceSec .serviceCon .conBox .item .imgBox{float:left;} */
-    #serviceSec .serviceCon .conBox .item .txtBox{text-align: left; margin-left:10px;}
+    #serviceSec .serviceCon .conBox .item .txtBox{text-align: left; }
 
 }
 
@@ -139,10 +143,16 @@
     #footer .btmInfo ul{justify-content: flex-start;}
 
     /* Contact Section Style */
+<<<<<<< HEAD
+    #contactSec .center{max-width:400px;}
+    #contactSec .contactCon ul{flex-direction: column;}
+    #contactSec .contactCon ul li{width:100%;}
+=======
     #contactSec .center{max-width:600px;}
     /* #contactSec .contactCon ul{flex-direction: column;} */
     /* #contactSec .contactCon ul li{width:80%;} */
     #contactSec .contactCon ul li{width:45%; }
+>>>>>>> b4042d7775766c212ce13a8e2141ee3e036d3cc2
     #contactSec .contactCon ul li .imgBox{width:60px; height: 60px;}
     #contactSec .contactCon ul li .txtBox{font-size: 14px;}
 

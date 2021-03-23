@@ -1,6 +1,6 @@
 1. Contact Section / 반응형✔ 
-2. footer✔ 
-
+2. footer
+3. 반응형 resize 크기 조절 - body 전체말고 일부 섹션만 축소 되도록
 4. 슬라이더 바꾸기 - Light Slider ✔
   4-1. indicator index작업✔
   4-2. slider width 조절 - width가 왜 한도끝도 없이 길게 잡히는가........✔

@@ -55,6 +55,12 @@
             
         </div>
         <!-- end of header -->
+<<<<<<< HEAD:index.php
+
+        <!-- hidden navigation -->
+        <?php include $_SERVER["DOCUMENT_ROOT"]. "/renewal/include/hidden_nav.php";?>  
+       
+=======
         <div id="hiddenNav" class="clear">
             <div class="hiddenLeft">
                 <!-- <img src="./img/hiddenNav_left_img.jpg" alt=""> -->
@@ -133,6 +139,7 @@
 
         </div>
         <!-- end of Hidden Navigation -->
+>>>>>>> b4042d7775766c212ce13a8e2141ee3e036d3cc2:index.html
 
         <div class="container">
             <section id="sliderSec" >                      
@@ -334,33 +341,44 @@
                                 </div>
                                 <div class="txtBox">
                                     <span>고객불편사항접수</span>
-                                </div>
-                            </li>
 
+                                </div>
+
+                            </li>
                             <li class="contact2">
                                 <div class="imgBox">
                                     <img src="./img/main_contact_icon_2.png" alt="">
                                 </div>
                                 <div class="txtBox">
                                     <span>제휴 및 제안</span>
-                                </div>
-                            </li>
 
+                                </div>
+
+                            </li>
                             <li class="contact3">
                                 <div class="imgBox">
                                     <img src="./img/main_contact_icon_4.png" alt="">
                                 </div>
                                 <div class="txtBox">
-                                    <span>자주묻는질문</span>
-                                </div>
-                            </li>
+<<<<<<< HEAD:index.php
+                                    <span>공지사항</span>
 
+=======
+                                    <span>자주묻는질문</span>
+>>>>>>> b4042d7775766c212ce13a8e2141ee3e036d3cc2:index.html
+                                </div>
+
+<<<<<<< HEAD:index.php
+                            </li>
+=======
+>>>>>>> b4042d7775766c212ce13a8e2141ee3e036d3cc2:index.html
                             <li class="contact4">
                                 <div class="imgBox">
                                     <img src="./img/main_contact_icon_3.png" alt="">
                                 </div>
                                 <div class="txtBox">
-                                    <span>공지사항</span>
+                                    <span>FAQ</span>
+
                                 </div>
                             </li>
                         </ul>
