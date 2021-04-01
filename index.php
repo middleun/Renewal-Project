@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-type" content="text/html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1,
-    user-scalable=no, target-densitydpi=medium-dpi">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
     <!-- reset css link -->
@@ -40,7 +38,7 @@
         <div id="header">
             <div class="center clear">
                 <div class="topLogo">
-                    <a href="#"><img src="img/logo.png"></a>
+                    <a href="#"><img src="img/logo.png" alt="해피베이비 로고 이미지"></a>
                     
                 </div>
                 <div class="topNavBar">
@@ -55,91 +53,10 @@
             
         </div>
         <!-- end of header -->
-<<<<<<< HEAD:index.php
 
         <!-- hidden navigation -->
         <?php include $_SERVER["DOCUMENT_ROOT"]. "/renewal/include/hidden_nav.php";?>  
        
-=======
-        <div id="hiddenNav" class="clear">
-            <div class="hiddenLeft">
-                <!-- <img src="./img/hiddenNav_left_img.jpg" alt=""> -->
-            </div>
-            <div class="hiddenRight">
-                <div class="center">
-                    <ul class="navDepth1 clear">
-                        <li>
-                            <a href="#">해피베이비</a>
-                            <ul class="navDepth2">
-                                <li>해피베이비소개</li>
-                                <li>대표원장인사말</li>
-                                <li>가맹점안내</li>
-                                <li>가맹점개설안내</li>
-                                <li>제휴및제안</li>
-                            </ul>                            
-                        </li>
-                        <li>
-                            <a href="#">산후조리서비스</a>
-                            <ul class="navDepth2">
-                                <li>맞춤형산후관리사</li>
-                                <li>산모 서비스</li>
-                                <li>신생아 서비스</li>
-                                <li>기타 서비스</li>
-                                <li>서비스 이용요금</li>
-                                <li>서비스 이용후기</li>
-
-                               
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">산후조리정보</a>
-                            <ul class="navDepth2">
-                                <li>신생아 서비스</li>
-                                <li>기타 서비스</li>
-                                <li>서비스 이용요금</li>
-                                <li>서비스 이용후기</li>
-                               
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">산후조리예약</a>
-                            <ul class="navDepth2">
-                                <li>신생아 서비스</li>
-                                <li>기타 서비스</li>
-                                <li>서비스 이용요금</li>
-                                <li>서비스 이용후기</li>
-                               
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">교육원</a>
-                            <ul class="navDepth2">
-                                <li>신생아 서비스</li>
-                                <li>기타 서비스</li>
-                                <li>서비스 이용요금</li>
-                                <li>서비스 이용후기</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">고객센터</a>
-                            <ul class="navDepth2">
-                                <li>신생아 서비스</li>
-                                <li>기타 서비스</li>
-                                <li>서비스 이용요금</li>
-                                <li>서비스 이용후기</li>
-                               
-                            </ul>
-                        </li>
-                        
-                    </ul>
-                  
-                </div>
-                 <!-- end of hidden nav center -->
-            </div>
-
-        </div>
-        <!-- end of Hidden Navigation -->
->>>>>>> b4042d7775766c212ce13a8e2141ee3e036d3cc2:index.html
 
         <div class="container">
             <section id="sliderSec" >                      
@@ -148,19 +65,19 @@
                         <ul class="sliderImg">                      
 
                             <li class="slider item1" >
-                                <img src="./img/main_slide_1.png" alt="">                            
+                                <img src="./img/main_slide_1.png" alt="해피베이비 슬라이드 이미지">                            
                             </li>
 
                             <li class="slider item2" >
-                                <img src="./img/main_slide_2.png" alt="">                            
+                                <img src="./img/main_slide_2.png" alt="해피베이비 슬라이드 이미지">                            
                             </li>
 
                             <li class="slider item3" >
-                                <img src="./img/main_slide_3.png" alt="">                            
+                                <img src="./img/main_slide_3.png" alt="해피베이비 슬라이드 이미지">                            
                             </li>
 
                             <li class="slider item4" >
-                                <img src="./img/main_slide_4.png" alt="">                            
+                                <img src="./img/main_slide_4.png" alt="해피베이비 슬라이드 이미지">                            
                             </li>
                         </ul>        
                     </div>
@@ -168,7 +85,7 @@
 
                     <div class="sliderTxt">
                         <div class="sliderEmblem">
-                            <img src="./img/main_emblem.png" alt="">
+                            <img src="./img/main_emblem.png" alt="해피베이비 애니메이션 엠블럼 이미지">
                         </div>
                         <span class="aniCon1">Happy</span>
                         <span class="aniCon2">Baby</span>
@@ -193,7 +110,7 @@
                             <div class="item">
                                 <div class="imgBox">
                                     <div class="iconBox">
-                                        <img src="./img/main_sevice_icon_1.png" alt="">
+                                        <img src="./img/main_sevice_icon_1.png" alt="해피베이비 산모서비스 아이콘">
                                     </div>
                                 </div>
                                 
@@ -211,7 +128,7 @@
                             <div class="item">
                                 <div class="imgBox">
                                     <div class="iconBox">
-                                        <img src="./img/main_sevice_icon_2.png" alt="">
+                                        <img src="./img/main_sevice_icon_2.png" alt="해피베이비 신생아서비스 아이콘">
                                     </div>    
                                 </div>
                                                            
@@ -227,7 +144,7 @@
                             <div class="item">
                                 <div class="imgBox">
                                     <div class="iconBox">
-                                        <img src="./img/main_sevice_icon_3.png" alt="">
+                                        <img src="./img/main_sevice_icon_3.png" alt="해피베이비 기타서비스 아이콘">
                                     </div>
                                 </div>                                
                                 <div class="txtBox">
@@ -285,7 +202,7 @@
                             <div class="center">
                                 <h3>맞춤형 산후 관리사</h3>
                                 <span>산모와 신생아의 건강을 지키는 해피베이비 관리사</span>
-                                <img src="img/main_grid_hndwrt.png" alt="">
+                                <img src="img/main_grid_hndwrt.png" alt="해피베이비 영문 손글씨 이미지">
                                 
                                 <button class="button">View More</button>
                             </div>
@@ -334,10 +251,10 @@
             <section id="contactSec">
                 <div class="center">
                     <div class="contactCon">
-                        <ul class="clear">
+                        <ul>
                             <li class="contact1">
                                 <div class="imgBox">
-                                    <img src="./img/main_contact_icon_1.png" alt="">
+                                    <img src="./img/main_contact_icon_1.png" alt="해피베이비 고객불편사항접수 아이콘">
                                 </div>
                                 <div class="txtBox">
                                     <span>고객불편사항접수</span>
@@ -347,7 +264,7 @@
                             </li>
                             <li class="contact2">
                                 <div class="imgBox">
-                                    <img src="./img/main_contact_icon_2.png" alt="">
+                                    <img src="./img/main_contact_icon_2.png" alt="해피베이비 제휴 및 제안 아이콘">
                                 </div>
                                 <div class="txtBox">
                                     <span>제휴 및 제안</span>
@@ -357,24 +274,17 @@
                             </li>
                             <li class="contact3">
                                 <div class="imgBox">
-                                    <img src="./img/main_contact_icon_4.png" alt="">
+                                    <img src="./img/main_contact_icon_3.png" alt="해피베이비 공지사항 아이콘">
                                 </div>
                                 <div class="txtBox">
-<<<<<<< HEAD:index.php
                                     <span>공지사항</span>
 
-=======
-                                    <span>자주묻는질문</span>
->>>>>>> b4042d7775766c212ce13a8e2141ee3e036d3cc2:index.html
                                 </div>
 
-<<<<<<< HEAD:index.php
                             </li>
-=======
->>>>>>> b4042d7775766c212ce13a8e2141ee3e036d3cc2:index.html
                             <li class="contact4">
                                 <div class="imgBox">
-                                    <img src="./img/main_contact_icon_3.png" alt="">
+                                    <img src="./img/main_contact_icon_3.png" alt="해피베이비 자주묻는질문 아이콘">
                                 </div>
                                 <div class="txtBox">
                                     <span>FAQ</span>
@@ -394,7 +304,7 @@
             <div class="center">
                 <div class="btmNav">
                     <div class="btmLogo">
-                        <a href="#"><img src="img/f_logo.png"></a>
+                        <a href="#"><img src="img/f_logo.png" alt="해피베이비 흑백 로고 이미지"></a>
                         
                     </div>
                     <div class="btmQuick clear">
@@ -467,13 +377,11 @@
     <!-- Light Slider js CDN link -->
     <script src="./plugin/lightslider.js"></script>
 
-     <!-- Slick Slder js CDN link -->
-     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
-
+     
     <!-- main js link -->
     <script src="./js/custom.js"></script>
 
-    <script type= "text/javascript">
+    <script>
        
         // Light Slider
         $(document).ready(function() {
@@ -486,34 +394,7 @@
                 controls:false,
                 slideMargin:0             
             });
-        });
-
-
-        // Resize시 전체 크기 축소 
-        
-        // function resizeContents(){ 
-        //     // const sliderSec = document.getElementById('#sliderSec');
-        //     let scale =1;
-
-        //         // if(window.innerWidth < 1024){
-        //         //     document.body.style.zoom = scale/1.05;
-        //         // } else 
-                
-        //         if(window.innerWidth < 750) { 
-        //             document.body.style.zoom = scale/1.5; 
-        //         } else {
-        //             document.body.style.zoom = scale; 
-        //         } 
-            
-        //     window.onload = function() { 
-        //         window.addEventListener('resize', function() {
-        //          resizeContents(); 
-        //         });
-        //     }     
-        // } 
-        // resizeContents();
-       
-    
+        });       
 
 
     </script>

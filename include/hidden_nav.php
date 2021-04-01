@@ -4,7 +4,7 @@
                 <div class="center">
                     <ul class="mainDepth">
                         <li class="accordion-toggle toggle">
-                            <h3><a href="#">해피베이비</a></h3>
+                            <span><a href="#">해피베이비</a></span>
                             <ul class="subDepth">
                                 <li><a href="#">해피베이비 소개</a></li>
                                 <li><a href="#">대표원장 인사말</a></li>
@@ -13,7 +13,7 @@
                             </ul>                            
                         </li>
                         <li class="accordion-toggle toggle">
-                            <h3><a href="#">산후조리서비스</a></h3>
+                            <span><a href="#">산후조리서비스</a></span>
                             <ul class="subDepth">
                                 <li><a href="#">맞춤형 산후관리사</a></li>
                                 <li><a href="#">산모 서비스</a></li>
@@ -25,7 +25,7 @@
                             </ul>
                         </li>
                         <li class="accordion-toggle toggle">
-                            <h3><a href="#">산후조리예약</a></h3>
+                            <span><a href="#">산후조리예약</a></span>
                             <ul class="subDepth">
                                 <li><a href="#">온라인 예약</a></li>
                                 <li><a href="#">예약 확인</a></li>
@@ -33,7 +33,7 @@
                             </ul>
                         </li>
                         <li class="accordion-toggle toggle">
-                            <h3><a href="#">교육원</a></h3>
+                            <span><a href="#">교육원</a></span>
                             <ul class="subDepth">
                                 <li><a href="#">전문강사 소개</a></li>
                                 <li><a href="#">산후관리사 교육</a></li>
@@ -43,8 +43,9 @@
                             </ul>
                         </li>
                         <li class="accordion-toggle toggle">
-                            <h3><a href="#">고객센터</a></h3>
-                            <ul class="subDepth">공지사항</a></li>
+                            <span><a href="#">고객센터</a></span>
+                            <ul class="subDepth">
+                                <li><a href="#">공지사항</a></li>
                                 <li><a href="#">자주 하는 질문</a></li>
                                 <li><a href="#">고객 불편사항 접수</a></li>
                                                                
@@ -56,7 +57,7 @@
                     </ul>
                   
                 </div>
-                <!-- <-- end of hidden nav center --> 
+                <!-- end of hidden nav center --> 
             </div>
 
 </div>
