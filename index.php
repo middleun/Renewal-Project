@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
+    <meta name="keywords" content="해피베이비 리뉴얼">
+    <meta name="subject" content="해피베이비의 클론/리뉴얼 사이트">
+    <meta name="description" content="기존 사이트를 클론 코딩 및 리뉴얼한 사이트입니다.">
+    <meta name="author" content="eunallaco@gmail.com, 이중은">
+    <!-- <meta name="robots" content="index,follow"> -->
+    <!-- <meta name="copyright" content="copyrights 2021 LEEJUNGEUN."> -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Happy baby : renewal">
+    <meta property="og:description" content="해피베이비의 기존 사이트를 클론 및 리뉴얼한 사이트입니다.">
+    <meta property="og:image" content="http://middleun.dothome.co.kr/renewal/img/f_logo.png">
+    <meta property="og:url" content="https://middleun.dothome.co.kr/renewal">
+
+    <!-- favicon link -->
+    <link rel="icon" href="./img/favicon_32x32.png"/>
+
     <!-- reset css link -->
     <link rel="stylesheet" href="./css/reset.css">
 
@@ -24,16 +39,11 @@
     <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
 
     <!-- fontawesome CDN link -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
-       
-
-
-    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>    
 
     <title>해피베이비</title>
 </head>
 <body>
-
     <div class="wrap">
         <div id="header">
             <div class="center clear">
