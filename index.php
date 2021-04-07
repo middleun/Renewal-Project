@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-    <meta name="keywords" content="해피베이비 리뉴얼">
-    <meta name="subject" content="해피베이비의 클론/리뉴얼 사이트">
+    <meta name="keywords" content="해피베이비, 리뉴얼, 그리드레이아웃">
+    <meta name="title" content="해피베이비의 클론/리뉴얼 사이트">  
+    <meta name="subject" content="리뉴얼사이트">
     <meta name="description" content="기존 사이트를 클론 코딩 및 리뉴얼한 사이트입니다.">
     <meta name="author" content="eunallaco@gmail.com, 이중은">
-    <!-- <meta name="robots" content="index,follow"> -->
+    <meta name="robots" content="index,follow">
     <!-- <meta name="copyright" content="copyrights 2021 LEEJUNGEUN."> -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Happy baby : renewal">
