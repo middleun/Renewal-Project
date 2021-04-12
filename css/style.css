@@ -111,10 +111,10 @@ no-repeat 50% 0; top:80%; display:flex; justify-content: center; align-items: ce
  **************************/
  #gridSec{width:100%; height: auto; margin-bottom:100px;}
  #gridSec .gridBox{width:100%; height:auto; display:grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(5,minmax(200px, auto)); 
-_align-items:stretch; align-content:center; justify-content: center; _border:1px solid #cd056d; transition:all 0.4s ease;}
+align-content:center; justify-content: center; _border:1px solid #cd056d; transition:all 0.4s ease;}
 
 #gridSec .gridBox .item{width:100%; height:auto; position:relative; display:flex; justify-content: center; align-items: center;
-_border:1px solid #cd056d; _transition: all 0.4s ease-in-out;}
+}
 
 
 #gridSec .gridBox .item1{grid-row:1/3; grid-column: 1/2; height:1000px;}

@@ -14,7 +14,6 @@
 
     /* ServiceSection Style */
     #serviceSec .serviceCon .conBox .item .txtBox{max-width: 80%;}
-    /* #serviceSec .serviceCon .conBox .item .txtBox span{font-size:14px;} */
     #serviceSec .serviceCon .conBox .item .txtBox span:nth-child(1){padding-right: 100px;}
 
 
@@ -29,9 +28,6 @@
     /* Slider Section Style */
     #sliderSec .sliderWrap .slider{transform:scale(0.9); transition:all 1.2s linear;}
 
-    /* #sliderSec .sliderTxt{transform:scaleX(0.7);} */
-
-
     /* Service Section Style */
     #serviceSec .serviceCon .conBox .item .txtBox span{font-size:14px;}
 
@@ -40,7 +36,6 @@
     #gridSec .gridBox .item:nth-child(2){height:500px;}
     #gridSec .gridBox .item:nth-child(3){height:300px;}
     #gridSec .gridBox .item:nth-child(4){height:800px;}
-    /* #gridSec .gridBox .item:nth-child(5){grid-row:5/6;height:200px;} */
     #gridSec .gridBox .item:nth-child(6){height:400px;}
     #gridSec .gridBox .item:nth-child(7){height:400px;}
 
@@ -49,17 +44,12 @@
     #gridSec .gridBox .item2 .txtBox button{font-size:14px;}
 
     /* Contact Section Style */
-    /* #contactSec .center{max-width:1100px;} */
     #contactSec .contactCon ul li .imgBox{width:80px; height:80px;}
 
 
 }    
-
-
-
 @media screen and (max-width:1024px){
     .center{max-width:700px;}
-
 
     /* SliderSection Style */
     #sliderSec .sliderTxt span{font-size:150px;}
@@ -71,15 +61,11 @@
     #serviceSec .serviceCon .conBox .item{flex-direction: row; align-items: space-between; _position:relative;}
     #serviceSec .serviceCon .conBox .item .imgBox{margin-right:20px;}
     #serviceSec .serviceCon .conBox .item .imgBox .iconBox{display:none;}
-    /* #serviceSec .serviceCon .conBox .item .imgBox{float:left;} */
     #serviceSec .serviceCon .conBox .item .txtBox{text-align: left; }
-
 }
 
 
-@media screen and (max-width:800px){
-    /* #header{padding:0 30px;}     */
-    
+@media screen and (max-width:800px){    
     /* Slider Section Style */
     #sliderSec .sliderWrap .slider{transform:scale(0.8); transition:all 1.2s linear;}
     #sliderSec .sliderTxt{transform: scale(0.8); transition:all 0.4s linear;}
@@ -100,16 +86,10 @@
 
     /* Slider Section Style */
     #sliderSec .sliderWrap .slider{transform:scale(0.7); transition:all 1.2s linear;}
-    /* #sliderSec .sliderTxt{transform: scale(0.8); transition:all 0.4s linear;} */
-
-
-
 
     /* Service Section Style */
     #serviceSec .serviceCon .conBox .item .imgBox{display:none;}
-    #serviceSec .serviceCon .conBox .item .txtBox{max-width: 100%; text-align:center;}
-
-    
+    #serviceSec .serviceCon .conBox .item .txtBox{max-width: 100%; text-align:center;}    
     
     /* GridSection Style */
     #gridSec .gridBox{grid-template-columns: repeat(1, 1fr); grid-template-rows: repeat(8,minmax(200px, auto)); }
@@ -126,8 +106,7 @@
 
     #gridSec .gridBox .item4 .txtBox img{display:none;}
 
-    #gridSec .gridBox .item5 .txtBox, #gridSec .gridBox .item8 .txtBox{text-align:center; left:0;}
-    
+    #gridSec .gridBox .item5 .txtBox, #gridSec .gridBox .item8 .txtBox{text-align:center; left:0;}    
 
 
     /* footer styel */
@@ -139,25 +118,20 @@
     #contactSec .contactCon ul li{width:100%;}
     #contactSec .contactCon ul li .imgBox{width:60px; height: 60px;}
     #contactSec .contactCon ul li .txtBox{font-size: 14px;}
-
     
 }
 
 
 @media screen and (max-width:600px){
-
-    #header .center{max-width:480px;}
-    #header .center .topLogo{height:45px;}
-
-   
     #header{height:80px;}
-    #header .topLogo{margin:10px auto;}
+    #header .center{max-width:480px;}
+    #header .center .topLogo{height:45px;margin:10px auto;}   
 
     /* Slider Section Style  */
     #sliderSec .sliderTxt{transform: scale(0.7); transition:all 0.4s linear; flex-direction: column; justify-content: center;}
+    #sliderSec .sliderTxt span{font-size:100px;  }
     #sliderSec .sliderTxt span:nth-child(1){display:block;margin-right:20px;}
 
-    #sliderSec .sliderTxt span{font-size:100px;  }
 
     /* Service Section Style */
     #serviceSec .center {max-width: 80%; text-align:center;}
@@ -174,17 +148,14 @@
 
     button{width:100px; height:40px;}
 
-
     #header .center{max-width:450px;}
     #header .center .topLogo{height:45px;}
-    #header .topNavBar a{width:45x; height: 45px;;}
-
-     
+    #header .topNavBar a{width:45x; height: 45px;}
+    
 
     /* Slider Section Style  */
     #sliderSec .sliderWrap .slider{transform:scale(0.6); }
     #sliderSec .sliderTxt{transform: scale(0.6); }
-   
     #sliderSec .sliderTxt span{font-size:100px;  }
 
     /* Service Section Style */
@@ -201,6 +172,7 @@
     /* Contact Section Style */
     #contactSec .center{max-width:300px;}
     
+    /* footer style */
     #footer .btmNav .btmLogo a{height:50px;}
     #footer .btmNav .btmQuick ul li span, #footer .btmInfo li{font-size: 12px;;}
     
